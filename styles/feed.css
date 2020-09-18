@@ -1,0 +1,93 @@
+/* ------------------ Inicio Página de Feed --------------------------- */
+
+#feed {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  header div {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  header a {
+    margin-left: auto;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .button {
+    background: #e02041;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  header button {
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    margin-left: 16px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    transition: border-color 0.2s;
+    cursor: pointer;
+  }
+  header button img {
+    width: 80%;
+  }
+  
+  #pictures {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .picture {
+    border: 1px solid #d1d1d4;
+    max-width: 550px;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px 0;
+    background: #fff;
+  }
+  .picture .title {
+    padding: 20px;
+  }
+  
+  .picture img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* inicio página de registro */
+  
+  #register {
+    border-radius: 4px;
+    background: #fff;
+    padding: 40px;
+    margin-top: 40px;
+  }
+  #register a {
+    color: black;
+    text-decoration: none;
+  }
+  #register a:hover {
+    color: #e02041;
+  }
+  
