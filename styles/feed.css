@@ -1,93 +1,90 @@
-/* ------------------ Inicio Página de Feed --------------------------- */
+body {
+  background: #F2F4F4;
+  font: 400 16px Roboto, sans-serif;
+  color: #545454;
+}
 
-#feed {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .botao-cadastrar {
+  background: #50bdca;
+  color: #fff;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 500ms;
+}
+
+header .botao-cadastrar:hover {
+  background-color: #fed385;
+}
+
+header .botao-sair {
+  color:  #50bdca;
+  width: 32px;
+}
+
+header .botao-sair img {
+  color:  #50bdca;
+  width: 32px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.conteudo section {
+  width: 60%;
+}
+
+#logo {
+  width: 200px;
+}
+
+.post {
+  padding: 10px 10px;
+  background-color: #FBFCFC;
+  border: 1px solid lightgray;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post div {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+@media (max-width: 780px) {
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
-  
-  header div {
-    margin-left: 20px;
-    font-size: 20px;
-    margin-top: 10px;
-  }
-  
-  header a {
-    margin-left: auto;
-    color: black;
-    text-decoration: none;
-  }
-  
-  .button {
-    background: #e02041;
-    border: 0;
-    border-radius: 8px;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px;
-  }
-  
-  header button {
-    height: 40px;
-    width: 40px;
-    border-radius: 4px;
-    margin-left: 16px;
-    border: 1px solid #dcdce6;
-    background: transparent;
-    transition: border-color 0.2s;
-    cursor: pointer;
-  }
-  header button img {
-    width: 80%;
-  }
-  
-  #pictures {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
+    display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border-radius: 4px;
-    padding: 20px;
   }
-  
-  .picture {
-    border: 1px solid #d1d1d4;
-    max-width: 550px;
-    padding: 10px;
-    border-radius: 4px;
-    margin: 20px 0;
-    background: #fff;
+
+  header * {
+    margin-top: 16px;
   }
-  .picture .title {
-    padding: 20px;
+
+  #logo {
+    width: 50%;
   }
-  
-  .picture img {
-    width: 100%;
-    object-fit: cover;
+
+  main .conteudo {
+    margin: auto;
   }
-  
-  /* inicio página de registro */
-  
-  #register {
-    border-radius: 4px;
-    background: #fff;
-    padding: 40px;
-    margin-top: 40px;
-  }
-  #register a {
-    color: black;
-    text-decoration: none;
-  }
-  #register a:hover {
-    color: #e02041;
-  }
-  
+}

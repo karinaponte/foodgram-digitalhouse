@@ -16,4 +16,5 @@ async function exibirPosts() {
   }
 }
 
+exibirNome();
 exibirPosts();

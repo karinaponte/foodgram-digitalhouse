@@ -21,6 +21,7 @@ async function cadastrarPost() {
     headers,
     body: inputFile.files[0]
   };
+
   await fetch("https://foodgram-back.herokuapp.com/posts", requisicao);
 
   location.href = "/feed.html";

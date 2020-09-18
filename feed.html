@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <title>FoodGram</title>
-
-    <link rel="stylesheet" href="styles/custom.css" />
+    <link rel="stylesheet" href="styles/feed.css" />
   </head>
   <body>
     <header>
       <img id="logo" src="images/logo.png" alt="" />
-      <div>Olá Seja Bem Vindo, Aluno</div>
-      <a href="cadastro-de-foto.html">Cadastrar Nova Foto</a>
-      <button>
-        <img src="images/shutdown.svg" alt="" />
+      <div>Olá, seja bem-vindo(a) <span id="nome">Usuário</span>!</div>
+      <button class="botao-cadastrar" onclick="window.location.href = 'cadastro-de-foto.html'">
+        Cadastrar Nova Foto
       </button>
+      <a class="botao-sair" href= '/' alt="Sair" title="Sair">
+        <img src="images/shutdown.svg">
+      </a>
     </header>
     <main class="conteudo">
       <section></section>
     </main>
+    <script src="javascripts/create.js"></script>
     <script src="javascripts/feed.js"></script>
   </body>
 </html>
