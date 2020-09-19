@@ -9,7 +9,7 @@ function login() {
   }
   sessionStorage.setItem("nomeUsuario", inputNome.value);
 
-  location.href = "/feed.html";
+  location.href = "./feed.html";
 }
 
 
