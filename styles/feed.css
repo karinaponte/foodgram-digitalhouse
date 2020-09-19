@@ -69,6 +69,10 @@ header .botao-sair img {
 }
 
 @media (max-width: 780px) {
+  body {
+    margin: 0 auto;
+  }
+
   header {
     display:flex;
     flex-direction: column;
@@ -84,7 +88,7 @@ header .botao-sair img {
     width: 50%;
   }
 
-  main .conteudo {
-    margin: auto;
+  .conteudo section {
+    width: 80%
   }
 }

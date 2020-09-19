@@ -66,7 +66,11 @@ a {
 }
 
 @media (max-width: 500px) {
-  #register {
-    width: 100%;
+  body {
+    margin: 0 auto;
   }
+
+  .logo {
+    width: 100%;
+  }  
 }
